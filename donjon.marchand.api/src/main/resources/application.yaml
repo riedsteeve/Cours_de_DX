@@ -3,3 +3,6 @@ spring:
     name: donjon.marchand
 server:
   port: 9003
+marchand:
+  username: ${MARCHAND_USERNAME:dragan}
+  password: ${MARCHAND_PASSWORD}
